@@ -1,0 +1,10 @@
+Fund(hk101)
+ProductRisk(hk101)
+ApprovedHKMC(hk101)
+Capacity(Huang)
+
+ResidenceSP(Huang)
+InvestThreshold(Huang)
+FinProduct(zzb010)
+ProductRisk(zzb010)
+IssuedMainland(zzb010)

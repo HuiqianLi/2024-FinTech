@@ -1,0 +1,11 @@
+Capacity(A) && ResidenceSP(A) && InvestThreshold(A) => SouthPass(A)
+Capacity(A) && ResidenceNP(A) => NorthPass(A)
+Product(x) && ApprovedHKMC(x) => ProductSP(x)
+Product(x) && IssuedMainland(x) => ProductNP(x)
+SouthPass(A) && ProductSP(x) => InvestSP(A, x)
+NorthPass(A) && ProductNP(x) => InvestNP(A, x)
+
+ProductRisk(x) && Fund(x) => Product(x)
+ProductRisk(x) && Bond(x) => Product(x)
+ProductRisk(x) && FinProduct(x) && NotCash(x)  => Product(x)
+Savings(x) => Product(x)

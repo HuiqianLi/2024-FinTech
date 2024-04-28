@@ -1,0 +1,4 @@
+
+Fund(hk101) && ProductRisk(hk101) && ApprovedHKMC(hk101) => ProductSP(hk101)
+Capacity(Huang) && ResidenceSP(Huang) && ProductSP(hk101) => InvestSP(Huang, hk101)
+FinProduct(zzb010) && ProductRisk(zzb010) => ProductNP(zzb010)
